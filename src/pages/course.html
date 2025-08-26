@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="min-h-screen">
+    <header
+      class="sticky top-0 z-50 shadow-md transition-colors duration-300 bg-white dark:bg-gray-800"
+    >
+      <nav
+        class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center"
+      >
+        <div class="flex items-center justify-between w-full sm:w-auto">
+          <a href="#" class="text-3xl font-extrabold flex items-center gap-2">
+            <span class="text-indigo-600 dark:text-cyan-500">
+              Fake-School
+            </span>
+          </a>
+        </div>
+        <div
+          class="flex flex-col sm:flex-row items-center mt-4 sm:mt-0 space-y-2 sm:space-y-0 sm:space-x-14 text-xl font-medium"
+        >
+          <a
+            href="../index.html"
+            class="hover:text-opacity-80 transition-colors duration-200 text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >Home</a
+          >
+          <a
+            href="./course.html"
+            class="hover:text-opacity-80 transition-colors duration-200 text-sky-600 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >Course</a
+          >
+          <a
+            href="./about.html"
+            class="hover:text-opacity-80 transition-colors duration-200 text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >About</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-opacity-80 transition-colors duration-200 text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >Contact</a
+          >
+        </div>
+        <div class="flex items-center gap-3">
+          <!-- Log In Button -->
+          <button
+            class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
+          >
+            Log In
+          </button>
+
+          <!-- Sign Up Button -->
+          <button
+            class="px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
+          >
+            Sign Up
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+      <h2 class="text-6xl font-bold text-center mt-4 mb-16 text-green-600">
+        All Aviable Courses
+      </h2>
+      <div id="cardobj" class="grid grid-cols-1 md:grid-cols-2 gap-12"></div>
+    </main>
+
+    <script src="../script/card.js"></script>
+  </body>
+</html>

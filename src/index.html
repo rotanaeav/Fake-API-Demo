@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake-Store</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="min-h-screen">
+    <header
+      class="sticky top-0 z-50 shadow-md transition-colors duration-300 bg-white dark:bg-gray-800"
+    >
+      <nav
+        class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center"
+      >
+        <div class="flex items-center justify-between w-full sm:w-auto">
+          <a href="#" class="text-3xl font-extrabold flex items-center gap-2">
+            <span class="text-indigo-600 dark:text-cyan-500">
+              Fake-School
+            </span>
+          </a>
+        </div>
+        <div
+          class="flex flex-col sm:flex-row items-center mt-4 sm:mt-0 space-y-2 sm:space-y-0 sm:space-x-14 text-xl font-medium"
+        >
+          <a
+            href="#"
+            class="hover:text-opacity-80 transition-colors duration-200 text-sky-600 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >Home</a
+          >
+          <a
+            href="./pages/course.html"
+            class="hover:text-opacity-80 transition-colors duration-200 text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >Course</a
+          >
+          <a
+            href="./pages/about.html"
+            class="hover:text-opacity-80 transition-colors duration-200 text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >About</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-opacity-80 transition-colors duration-200 text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-cyan-400"
+            >Contact</a
+          >
+        </div>
+        <div class="flex items-center gap-3">
+          <!-- Log In Button -->
+          <button
+            class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
+          >
+            Log In
+          </button>
+
+          <!-- Sign Up Button -->
+          <button
+            class="px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
+          >
+            Sign Up
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="bg-gradient-to-br from-blue-50 to-purple-50 py-20">
+        <div class="text-center mb-16">
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">
+            Master New Skills with
+            <span class="text-purple-600">Expert-Led Courses</span>
+          </h1>
+          <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Join thousands of students learning cutting-edge technologies with
+            our comprehensive courses designed by industry experts.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button
+              class="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+            >
+              Watch Demo
+            </button>
+            <button
+              class="border border-purple-600 text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors"
+            >
+              Start Free Trial
+            </button>
+          </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <!-- Section Header -->
+          <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">
+              Popular Courses
+            </h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+              Discover our most sought-after courses designed by industry
+              experts
+            </p>
+          </div>
+
+          <!-- Course Grid -->
+          <div
+            id="popular-courses"
+            class="grid grid-cols-1 md:grid-cols-2 gap-6"
+          >
+            <!-- Courses will be loaded here by JavaScript -->
+          </div>
+
+          <!-- View All Button -->
+          <div class="text-center mt-12">
+            <a
+              href="./pages/course.html"
+              class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+            >
+              View All Courses
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+              <div class="text-3xl font-bold text-purple-600 mb-2">10K+</div>
+              <div class="text-gray-600">Students Enrolled</div>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-purple-600 mb-2">50+</div>
+              <div class="text-gray-600">Expert Instructors</div>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-purple-600 mb-2">100+</div>
+              <div class="text-gray-600">Courses Available</div>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-purple-600 mb-2">95%</div>
+              <div class="text-gray-600">Success Rate</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script/main.js"></script>
+  </body>
+</html>

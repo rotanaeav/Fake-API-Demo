@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
+    "title": "Flutter Mobile Development",
+    "description": "Flutter course is designed to develop cross-platform mobile apps.",
+    "scholarship": "20% Scholarship",
+    "hours": 80,
+    "level": "Medium"
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/IOS_logo.svg",
+    "title": "iOS Development",
+    "description": "iOS Development is designed for students to build apps for iOS devices.",
+    "scholarship": "20% Scholarship",
+    "hours": 80,
+    "level": "Medium"
+  },
+  {
+    "id": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg",
+    "title": "Android Development",
+    "description": "Learn to build native Android apps with Java and Kotlin.",
+    "scholarship": "15% Scholarship",
+    "hours": 90,
+    "level": "Medium"
+  },
+  {
+    "id": 4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "title": "React Native Development",
+    "description": "Learn to build cross-platform mobile apps with React Native.",
+    "scholarship": "10% Scholarship",
+    "hours": 100,
+    "level": "Beginner"
+  },
+  {
+    "id": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "title": "Web Development Bootcamp",
+    "description": "Full-stack web development with HTML, CSS, JavaScript, and Node.js.",
+    "scholarship": "25% Scholarship",
+    "hours": 120,
+    "level": "Beginner"
+  },
+  {
+    "id": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "title": "Node.js Backend Development",
+    "description": "Learn backend development with Node.js and Express.",
+    "scholarship": "20% Scholarship",
+    "hours": 85,
+    "level": "Medium"
+  },
+  {
+    "id": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg",
+    "title": "Django Web Development",
+    "description": "Learn web backend development using Python and Django framework.",
+    "scholarship": "15% Scholarship",
+    "hours": 95,
+    "level": "Medium"
+  },
+  {
+    "id": 8,
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    "title": "Java Programming",
+    "description": "Master core Java programming concepts and OOP principles.",
+    "scholarship": "20% Scholarship",
+    "hours": 75,
+    "level": "Beginner"
+  },
+  {
+    "id": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+    "title": "C++ Programming",
+    "description": "Learn C++ for systems programming, game dev, and algorithms.",
+    "scholarship": "15% Scholarship",
+    "hours": 70,
+    "level": "Medium"
+  },
+  {
+    "id": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "title": "Python for Beginners",
+    "description": "Introduction to Python programming and problem-solving.",
+    "scholarship": "25% Scholarship",
+    "hours": 60,
+    "level": "Beginner"
+  },
+  {
+    "id": 11,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
+    "title": "Machine Learning Basics",
+    "description": "Learn ML concepts with Python, scikit-learn, and TensorFlow.",
+    "scholarship": "10% Scholarship",
+    "hours": 100,
+    "level": "Medium"
+  },
+  {
+    "id": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
+    "title": "C# Programming",
+    "description": "Learn C# programming for Windows apps and game development.",
+    "scholarship": "15% Scholarship",
+    "hours": 80,
+    "level": "Medium"
+  },
+  {
+    "id": 13,
+    "image": "https://images.seeklogo.com/logo-png/33/1/javascript-logo-png_seeklogo-330541.png",
+    "title": "JavaScript Essentials",
+    "description": "Master JavaScript fundamentals for web development.",
+    "scholarship": "20% Scholarship",
+    "hours": 70,
+    "level": "Beginner"
+  },
+  {
+    "id": 14,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+    "title": "SQL & Databases",
+    "description": "Learn SQL for relational database management.",
+    "scholarship": "15% Scholarship",
+    "hours": 50,
+    "level": "Beginner"
+  },
+  {
+    "id": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+    "title": "MongoDB Development",
+    "description": "Learn NoSQL databases and MongoDB fundamentals.",
+    "scholarship": "20% Scholarship",
+    "hours": 65,
+    "level": "Medium"
+  },
+  {
+    "id": 16,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+    "title": "AWS Cloud Fundamentals",
+    "description": "Get started with cloud computing on AWS.",
+    "scholarship": "20% Scholarship",
+    "hours": 80,
+    "level": "Medium"
+  },
+  {
+    "id": 17,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
+    "title": "Microsoft Azure Basics",
+    "description": "Introduction to cloud services on Azure.",
+    "scholarship": "10% Scholarship",
+    "hours": 75,
+    "level": "Beginner"
+  },
+  {
+    "id": 18,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg",
+    "title": "DevOps with Docker & Kubernetes",
+    "description": "Learn CI/CD, containerization, and orchestration tools.",
+    "scholarship": "15% Scholarship",
+    "hours": 100,
+    "level": "Advanced"
+  },
+  {
+    "id": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg",
+    "title": "Cryptocurrency Fundamentals",
+    "description": "Learn how cryptocurrencies and blockchain work.",
+    "scholarship": "20% Scholarship",
+    "hours": 60,
+    "level": "Beginner"
+  },
+  {
+    "id": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg",
+    "title": "Blockchain Development",
+    "description": "Learn how blockchain and smart contracts work.",
+    "scholarship": "10% Scholarship",
+    "hours": 95,
+    "level": "Advanced"
+  },
+  {
+    "id": 21,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    "title": "UI/UX Design",
+    "description": "Learn design principles and prototyping with Figma.",
+    "scholarship": "25% Scholarship",
+    "hours": 70,
+    "level": "Beginner"
+  },
+  {
+    "id": 22,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Unity_2021.svg",
+    "title": "Game Development with Unity",
+    "description": "Build 2D and 3D games using Unity and C#.",
+    "scholarship": "15% Scholarship",
+    "hours": 110,
+    "level": "Medium"
+  },
+  {
+    "id": 23,
+    "image": "https://images.seeklogo.com/logo-png/38/1/adobe-photoshop-logo-png_seeklogo-380560.png",
+    "title": "Graphic Design with Photoshop",
+    "description": "Learn graphic design and photo editing with Photoshop.",
+    "scholarship": "20% Scholarship",
+    "hours": 60,
+    "level": "Beginner"
+  },
+  {
+    "id": 24,
+    "image": "https://images.seeklogo.com/logo-png/38/1/adobe-illustrator-logo-png_seeklogo-380559.png",
+    "title": "Vector Design with Illustrator",
+    "description": "Learn vector graphics and illustration with Illustrator.",
+    "scholarship": "15% Scholarship",
+    "hours": 65,
+    "level": "Beginner"
+  },
+  {
+    "id": 25,
+    "image": "https://images.seeklogo.com/logo-png/33/1/spring-logo-png_seeklogo-333113.png",
+    "title": "Spring Framework",
+    "description": "Build Java applications with Spring Boot and Spring MVC.",
+    "scholarship": "20% Scholarship",
+    "hours": 85,
+    "level": "Medium"
+  },
+  {
+    "id": 26,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg",
+    "title": "Rust Programming",
+    "description": "Learn Rust for systems programming and performance.",
+    "scholarship": "10% Scholarship",
+    "hours": 80,
+    "level": "Medium"
+  },
+  {
+    "id": 27,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
+    "title": "Go Programming",
+    "description": "Learn Go programming for cloud-native apps.",
+    "scholarship": "20% Scholarship",
+    "hours": 75,
+    "level": "Medium"
+  },
+  {
+    "id": 28,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
+    "title": "Ruby on Rails Development",
+    "description": "Build web apps with Ruby and Rails framework.",
+    "scholarship": "15% Scholarship",
+    "hours": 90,
+    "level": "Medium"
+  },
+  {
+    "id": 29,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+    "title": "PHP Web Development",
+    "description": "Learn backend development with PHP and MySQL.",
+    "scholarship": "20% Scholarship",
+    "hours": 85,
+    "level": "Beginner"
+  },
+  {
+    "id": 30,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg",
+    "title": "Swift Programming",
+    "description": "Learn Swift programming language for Apple platforms.",
+    "scholarship": "25% Scholarship",
+    "hours": 80,
+    "level": "Beginner"
+  }
+]
