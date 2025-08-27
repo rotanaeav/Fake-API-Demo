@@ -3,7 +3,7 @@ async function loadCourseDetail() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
 
-  const res = await fetch("../data/courses.json"); // path relative to /pages
+  const res = await fetch("https://68ae84b2b91dfcdd62b9604a.mockapi.io/api/v1/course"); 
   const courses = await res.json();
 
   const course = courses.find(c => c.id == id);

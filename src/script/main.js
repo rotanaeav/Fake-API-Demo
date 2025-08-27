@@ -1,9 +1,7 @@
     async function loadPopularCourses() {
             try {
-                const response = await fetch('./data/courses.json');
+                const response = await fetch('https://68ae84b2b91dfcdd62b9604a.mockapi.io/api/v1/course');
                 const courses = await response.json();
-                
-                // Get first 8 courses for popular section (2 rows of 4)
                 const popularCourses = courses.slice(0, 4);
                 
                 const coursesContainer = document.getElementById('popular-courses');
@@ -44,5 +42,5 @@
             }
         }
 
-        // Load courses when page loads
+
         document.addEventListener('DOMContentLoaded', loadPopularCourses);

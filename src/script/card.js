@@ -1,6 +1,6 @@
 const courseCard = document.getElementById('cardobj');
 async function getCourses() {
-    const res = await  fetch('../data/courses.json')
+    const res = await  fetch('https://68ae84b2b91dfcdd62b9604a.mockapi.io/api/v1/course')
     const data = await res.json();
 let card = '';
     data.map(course => {
