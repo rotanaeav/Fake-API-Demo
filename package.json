@@ -2,11 +2,23 @@
   "name": "e-comerce-api",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/rotanaeav/Fake-API-Demo#readme",
+  "bugs": {
+    "url": "https://github.com/rotanaeav/Fake-API-Demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotanaeav/Fake-API-Demo.git"
+  },
+  "license": "ISC",
+  "author": "Rotana Eav",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
-  "author": "Rotana Eav",
-  "license": "ISC"
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
 }
